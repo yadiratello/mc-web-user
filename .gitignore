@@ -1,0 +1,5 @@
+mc-webuser.code-workspace
+.vscode/*
+node_modules/*
+.firebase/*
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <button class="bt_cargadatos" id="bt_cargadatos">JSON</button>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Email</th>
+                        <th>Sexo</th>
+                    </tr>
+                </thead>
+                <tbody id="personas">
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#bt_cargadatos").click(function () {
+                $.getJSON("bd.json", function (result) {
+                    // result es el RAIZ // dentro de raiz esta el array PERSONAS
+                    $.each(XPathResult, function () {
+                        // dentro de employees tienes: nombre etc etc 
+                        var $persona = "";
+
+                        $persona = $persona + "<tr><td>" + this.{data}.id + "</td>";
+                        $persona = $persona + "<td>" + this.rent_price + "</td>";
+                        $persona = $persona + "<td>" + this.location_address + "</td>";
+                        $persona = $persona + "<td>" + this.title + "</td>";
+
+                    
+                        $("#personas").append($persona);
+
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

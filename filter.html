@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Mercado Casa | Filtro de búsqueda</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PQ93QVQ');
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ93QVQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!------------------------Volver------------------------>
+    <header>
+      <a class="link-sin-decoracion" href="search.html"><div class="container mt-1-1">
+        <div class="d-inline">
+          <img src="img/arrows/arrow-left-black.svg" class="btn-back img-fluid">
+        </div>
+        <div class="d-inline">
+          <p class="text-filter-back d-inline"><b>FILTROS</b></p>
+        </div>
+      </div></a>
+    </header>
+    <!--Select: Distrito-->
+    <section class="mt-3">
+      <div class="container">
+        <div class="form-group">
+          <label class="label-form-interesa" for="select-distrito-add">DISTRITO</label>
+          <select class="form-control input-text-interesa" id="select-distrito-filter">
+            <option selected>Seleccione un distrito</option>
+            <option>Miraflores</option>
+            <option>Surco</option>
+            <option>Chorrillos</option>
+          </select>
+        </div>
+      </div>
+        
+    </section>
+    <!--Titulo - Tipo de propiedad-->
+    <section class="container">
+      <div class="text-left">
+        <p class="text-title-search mt-1-4"><b>TIPO DE PROPIEDAD</b></p>
+      </div>
+    </section>
+
+    <section>
+      <!-----------------------Cuadricula Tipo de propiedad------------------------>
+      <div class="container-fluid"  id="cont-prop">
+        <div class="row text-center">
+          <div class="col-4 p-cuadricula-prop active" id="prop-casa">
+            <div class="tipo-propiedad-content cuadricula1">
+              <img src="img/vector/casa-active.svg" class="img-fluid" id="img-casa">
+              <p class="text-tipo-prop"><b>Casa</b></p>
+              <p class="text-tipo-prop">(30)</p>
+            </div>
+          </div>
+          <div class="col-4 p-cuadricula-prop" id="prop-departamento">
+              <div class="tipo-propiedad-content bg-square-prop cuadricula1">
+                <img src="img/vector/departamento.svg" class="img-fluid" id="img-departamento">
+                <p class="text-tipo-prop"><b>Departamento</b></p>
+                <p class="text-tipo-prop">(10)</p>
+              </div>
+          </div>
+          <div class="col-4 p-cuadricula-prop" id="prop-oficina">
+              <div class="tipo-propiedad-content bg-square-prop cuadricula1">
+                <img src="img/vector/oficina.svg" class="img-fluid" id="img-oficina">
+                <p class="text-tipo-prop"><b>Oficina</b></p>
+                <p class="text-tipo-prop">(5)</p>
+              </div>
+          </div>
+        </div>
+        <div class="row mt-2 text-center">
+          <div class="col-4 p-cuadricula-prop" id="prop-local">
+            <div class="tipo-propiedad-content bg-square-prop cuadricula1">
+              <img src="img/vector/local.svg" class="img-fluid" id="img-local" style="margin-top:auto; margin-bottom: auto;">
+              <p class="text-tipo-prop"><b>Local</b></p>
+              <p class="text-tipo-prop">(11)</p>
+            </div>
+          </div>
+          <div class="col-4 p-cuadricula-prop" id="prop-terreno">
+            <div class="tipo-propiedad-content bg-square-prop cuadricula1">
+              <img src="img/vector/terreno.svg" class="img-fluid" id="img-terreno">
+                <p class="text-tipo-prop"><b>Terreno</b></p>
+                <p class="text-tipo-prop">(7)</p>
+              </div>
+            </div>
+            <div class="col-4 p-cuadricula-prop" id="prop-otros">
+              <div class="tipo-propiedad-content bg-square-prop cuadricula1">
+                <img src="img/vector/vector-otros.svg" class="img-fluid" id="img-otros">
+                  <p class="text-tipo-prop"><b>Otros</b></p>
+                  <p class="text-tipo-prop">(3)</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------TAGS------------------------>
+    <section>
+      <div class="container">
+        <!--Titulo-->
+        <div class="text-left">
+          <p class="text-title-search mt-1-4"><b>TAGS</b></p>
+        </div>
+        <!--Tags-->
+        <span class="badge tags text-tags active" id="1">Vivienda</span>
+      
+        <span class="badge tags text-tags" id="2">Campo</span>
+        
+        <span class="badge tags text-tags" id="3">Oficina</span>
+       
+        <span class="badge tags text-tags" id="4">Playa</span>
+      </div>
+    </section>
+    <!--Fin TAGS-->
+
+    <!-----------------------Características------------------------>
+    <section class="container">
+      <!--Titulo-->
+      <div class="text-left">
+        <p class="text-title-search mt-1-4"><b>CARACTERISTICAS</b></p>
+      </div>
+      <div class="container-fluid">
+       
+        <!--Dormitorios-->
+        <div class="row align-items-center mb-3" id="caract-filter">
+          <div class="col-2 pr-0">
+            <img src="img/vector/dormitorio.svg" class="img-fluid">
+          </div>
+          <div class="col-4">
+            <p class="text-left text-item-caract mb-0">Dormitorios</p>
+          </div>
+          <div class="col-6">
+            <button type="button" class="btn btn-less-plus text-btn-count d-inline" id="restar-dormitorios">-</button>
+            <input type="number" class="form-group input-number-count mb-0 d-inline" value="1" id="input-dormitorios">
+            <button type="button" class="btn btn-less-plus text-btn-count d-inline" id="sumar-dormitorios">+</button>
+          </div>
+        </div>
+        <!---->
+        <hr class="hr-dashed">
+        <!--Baños-->
+        <div class="row align-items-center mb-3" id="caract-filter">
+          <div class="col-2 pr-0">
+            <img src="img/vector/vector-bano.svg" class="img-fluid">
+          </div>
+          <div class="col-4">
+            <p class="text-left text-item-caract mb-0">Baños</p>
+          </div>
+          <div class="col-6">
+            <button type="button" class="btn btn-less-plus text-btn-count d-inline" id="restar-banos">-</button>
+            <input type="number" class="form-group input-number-count mb-0 d-inline" value="1" id="input-banos">
+            <button type="button" class="btn btn-less-plus text-btn-count d-inline" id="sumar-banos">+</button>
+          </div>
+        </div>
+        <!---->
+        <hr class="hr-dashed">
+        <!--Cochera-->
+        <div class="row align-items-center mb-3" id="caract-filter">
+          <div class="col-2 pr-0">
+            <img src="img/vector/cochera.svg" class="img-fluid">
+          </div>
+          <div class="col-4">
+            <p class="text-left text-item-caract mb-0">Cochera</p>
+          </div>
+          <div class="col-6">
+            <button type="button" class="btn btn-less-plus text-btn-count d-inline" id="restar-cochera">-</button>
+            <input type="number" class="form-group input-number-count mb-0 d-inline" value="1" id="input-cochera">
+            <button type="button" class="btn btn-less-plus text-btn-count d-inline" id="sumar-cochera">+</button>
+          </div>
+        </div>
+        <!---->
+        <hr class="hr-dashed">
+        <!--Precio-->
+        <div class="row align-items-center mb-3" id="caract-filter">
+          <div class="col-2 pr-0">
+            <img src="img/vector/precio.svg" class="img-fluid">
+          </div>
+          <div class="col-4">
+            <p class="text-left text-item-caract mb-0">Precio</p>
+          </div>
+        </div>
+        <div class="row tex-align-last-justify mt-1">
+          <div class="col-6 pr-2percent pl-0">
+            <div class="form-group ">
+              <label class="label-input-price" for="precio-desde">Desde</label>
+              <input type="number" class="form-control text-input-price" id="precio-desde" placeholder="">
+            </div>
+          </div>
+          <div class="col-6 pl-0 pr-0">
+            <div class="form-group">
+              <label class="label-input-price" for="precio-hasta">Hasta</label>
+              <input type="number" class="form-control text-input-price" id="precio-hasta" placeholder="">
+            </div>
+          </div>
+            
+          <div class="form-check form-check-inline mt-2">
+            <label class="container-radio mr-3">Dólares
+              <input type="radio" checked="checked" name="precio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container-radio">Soles
+              <input type="radio" checked="checked" name="precio">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          
+          <!--<div class="col-8 check-soles-align ">	
+            <div class="w-100 h-100">
+             <label class="customcheck d-inline">Soles
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label></div>
+          </div>  
+          <div class="col-4 pl-8 mx-auto">
+            <div class="h-100 w-100">
+              <label class="customcheck d-inlineb adjust-dolar">Dólares
+                <input type="checkbox" class="top2">
+                <span class="checkmark check-dolar-align"></span>
+              </label></div>
+          </div>-->
+        </div>
+        <!---->
+        <!--Reset/Enviar-->
+        <div class="row align-items-center mb-5 mt-32" id="caract-filter">
+          <div class="col-6">
+              <button type="reset" class="btn btn-reset text-btn-reset w-100"><b>Reestablecer</b></button>
+          </div>
+          <div class="col-6 pl-0">
+              <!--<button type="button" class="btn btn-apply text-btn-apply w-100"><b>Aplicar</b></button>-->
+              <a href="search.html" class="btn btn-apply text-btn-apply w-100"><b>Aplicar</b></a>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mercado-casa.js"></script>
+  </body>
+</html>

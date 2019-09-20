@@ -1,0 +1,170 @@
+[] frontend portada  @low @high @critical  @started(19-08-29)
+    [+] Fondo con opacidad 
+    [+] Logo
+    [+] Botón de entrar
+    [+] Verificar la opacidad del fondo que no se muestra en algunos dispositivos
+    [+] Crear social login
+    [+] Crear sing-up
+    [+] Quitar franja que divide botones
+    [+] Isertar ojo de revelar/ocultar contraseña con animación LOGIN
+    [+] Isertar ojo de revelar/ocultar contraseña con animación CREAR CUENTA
+    [+] Ajustar estilos una vez se escribe en el campo y se desenfoca
+    [-] Quitar borde rojo al desenfocar invalido (Mozilla)
+    [+] Arreglar opacidad que no se muestra en movil
+[] fontend Home (Página principal) @started(19-08-29)
+    [+] Realizar esqueleto del Menu @done(19-08-29)
+    [+] Titulo header @done(19-08-29)
+    [+] Botones Comprar/Alquilar @done(19-08-29)
+    [+] Selección tipo de inmueble @done(19-09-02)
+    [+] Dirección/Lugar @done(19-08-29)
+    [+] Listado de inmuebles “Lo nuevo de este mes” @done(19-09-02)
+    [+] Desactivar slide automático. @done(19-09-02)
+    [+] Crear Footer @started(19-09-05 10:00) @done(19-09-05)
+    [+] Colocar opciones y animación al menú principal @critical @started(19-09-05 10:00) @done(19-09-05)
+    [+] Agregar Animación a los botones
+    [-] Incluir enlace a menu generalizado
+    [+] Agregar dirección de ejemplo en el placeholder de buscar. Ejemplo: DistritoName
+    [+] Colocar header sticky con la m de mercado casa. @started(19-09-09 14:30)
+    [+] Colocar Favincon 
+    [+] Cambiar el icono de guardar inmueble
+    [-] Colocar un autocompletado en el input de buscar (Cristian)
+    [-] Colocar efecto gradiente/blur en en el carousel de imagenes de los listados de inmuebles
+    [+] Colocar botón "Ver más" posterior al listado.
+    [+] Mostrar la cantidad de elementos disponibles por cada propiedad de la cuadricula
+    [+] Cuando haga click en el icono de mercado casa en el menu, debe dirigir al home
+    [-] Acomodar texto de los titutlos que se muestran en dos lineas
+    [+] Ajustar los precios de los recuadros para algunos tamaños de dispositivos
+    [+] Links correspondientes en botones de Whatsapp y llamar
+    [+] Agregar efecto al boton de  estrella en los listados
+    [+] Quitar efecto focus del boton "Ver más"
+    [-] Colocar los id a los contendores para integrar data mas facil
+    [-]  Colocar condicional en jquery para verificar cuando ya la estrella esta seleccionada y cambiar su estatus
+    [-] Acomodar los div al final de cada col del listado e identar
+[] front-end Resultados de la búsqueda @started(19/09/02 9:00)
+    [+] Titulo Header @done(19/09/02)
+    [+] Listado de los inmuebles enocntrados @done(19/09/02)
+    [+] Agregar animación a los botones 
+    [+] Crear Footer @started(19-09-05 10:00) @done(19-09-05)
+    [+] Colocar opciones y animación al menú principal @critical @started(19-09-05 10:00) @done(19-09-05)
+    [+] Colocar link a detalle del inmueble.
+    [-] Incluir enlace a menu generalizado
+    [+] Colocar header sticky con la m de mercado casa.
+    [+] Colocar Favincon 
+    [-] Colocar efecto gradiente/blur en en el carousel de imagenes de los listados de inmuebles
+    [+] Colocar botón "Ver más" posterior al listado.
+    [+] Cuando haga click en el icono de mercado casa en el menu, debe dirigir al home
+    [-] Acomodar texto de los titutlos que se muestran en dos lineas
+    [+] Links correspondientes en botones de Whatsapp y llamar
+    [+] Agregar efecto al boton de  estrella en los listados
+    [+] Auitar efecto focus del boton "Ver más"
+    [+] Agregar Boton en el menu de cerrar sesion
+    [+] Cambiar el icono de guardar inmueble
+[] front-end Filtrado de la Búsqueda.
+    [+] Tipo de propiedad.
+    [+] TAGS
+    [+] Crear Caracterìasticas (baños/Dormitorios,etc.)
+    [+] Crear check Soles/USD
+    [+] Agregar animación a los botones
+    [+] Cambiar tags actuales por los bootstrap chips
+    [+] Agregar funcionalidad a tags
+    [+] Letra de precio alinear a la derecha.
+    [+] Eliminar lo check y colocar un select para el tipo de moneda (Se colocó un radio button)
+    [+] Colocar dos campos para colocar precios "Desde" y "Hasta" y sin placeholder
+    [+] Colocar filtros de distritos en diseño
+    [+] Quitar decoración en la flecha de volver.
+    [+] Colocar Favincon 
+    [+] Agregar funcionalidad de suma y resta en la cantidad
+    [+] Aplicar enlace de boton aplicar
+    [-]  Agregar combobox Departamento y provincia. Actualmente está solo distrito. 
+[]  front-end Listado de inmuebles similares. @started(19-09-05 15:30) 
+    [+] Carousel de imágenes @started(19-09-05 15:30) @done(19-09-05)
+    [+] Dirección
+    [+] Precio
+    [+] Información
+    [+] Características (baños/Dormitorios,etc.)
+    [+] Mapa esqueleto
+    [+] Listado de inmuebles similares.
+    [-] Incluir enlace a menu generalizado
+    [+] Cambiar el link de contactar ahora por uno de mercadocasa (se colocó inpu telefono)
+    [+] Cambiar el formato del modal, ya que no se envían los datos del contacto.
+    [+] Colocar los dos iconos que faltan en características
+    [+] Colocar marker en mapa
+    [+] Colocar el boton de contactar como sticky
+    [+] Colocar Favincon 
+    [-] Colocar efecto gradiente/blur en en el carousel de imagenes de los listados de inmuebles
+    [+] Colocar botón "Ver más" posterior al listado.
+    [+] Cuando haga click en el icono de mercado casa en el menu, debe dirigir al home
+    [-] Acomodar texto de los titutlos que se muestran en dos lineas
+    [+] Links correspondientes en botones de Whatsapp y llamar
+    [+] Agregar efecto al boton de  estrella en los listados
+    [+] Quitar efecto focus del boton "Ver más"
+    [+] Ajustar tamaño del boton volver
+    [+] Crear modal de listado de Agentes
+    [+] Enlazar modales agentes - contactar
+    [+] Abrir modal desde login
+    [-] Colocar breadcrumb 
+    [+] Colocar Header
+[] front-end Listado “Me Interesa” @started(19-09-06 12:15)
+    [+] Agregar Titulo.
+    [+] Crear Boton "Agregar"
+    [+] Crear listado de inmuebles favoritos.
+    [-] Incluir enlace a menu generalizado
+    [+] Colocar header sticky con la m de mercado casa.
+    [+] Colocar Favincon 
+    [-] Colocar efecto gradiente/blur en en el carousel de imagenes de los listados de inmuebles
+    [+] Colocar botón "Ver más" posterior al listado.
+    [+] Cuando haga click en el icono de mercado casa en el menu, debe dirigir al home
+    [-] Acomodar texto de los titutlos que se muestran en dos lineas
+    [+] Links correspondientes en botones de Whatsapp y llamar
+    [+] Linkear menu y footer
+    [+] Cambiar el icono de guardar inmueble
+    [+] Quitar Focus a botón de "Agregar"
+    [+] Agregar efecto al boton de  estrella en los listados
+    [+] Quitar efecto focus del boton "Ver más"
+[] front-end Registro un nuevo inmueble en “Me Interesa” @started(19-09-09 10:00 am)
+    [+] Botones: Buscador + Manualmente.
+    [+] Agregar animación a los botones
+    [+] Selección del tipo de Inmueble.
+    [+] Agregar la cantidad de inmuebles por tipo de propiedad entre () 
+    [+] Campos de información del inmueble.
+    [+] Agregar propiedades del formulario
+    [+] Sección para agregar fotos del inmueble.
+    [-] Incluir enlace a menu generalizado
+    [+] Colocar Favincon 
+    [+] Agregar vista busqueda buscador
+    [+] Agregar campos de precio
+    [-] Colocar efecto gradiente/blur en en el carousel de imagenes de los listados de inmuebles
+    [-] Acomodar texto de los titutlos que se muestran en dos lineas
+    [+] Cambiar el icono de guardar inmueble
+    [+] Agregar funcionalidad de suma y resta en la cantidad
+    [+] Agregar enlace a "Guardar"
+    [+] Boton de volver sin decoracion
+[] Pantalla Buscador
+    [+] Crear vista para buscador en agregar me interesa.
+[] Pantalla Busqueda (Buscador) "Me interesa"
+    [+] Quitar efecto focus del boton "Ver más"
+    [+] Agregar efecto al boton de  estrella en los listados
+
+[]  Desktop: Portada
+
+[]  Desktop: Home
+    [+] Crear Menu
+    [+] Crear Sticky menu
+    [+] Crear Banner
+    [+] Crear botonones en el banner
+    [+] Dar animación funcional a los botones del banner
+    [] Crear Hover para los botones (en general)
+    [+] Estructurar cuadricula para móvil, tablet y desktop (Responsive)
+    [+] Ajustar footer para movil, tablet y desktop
+    [+] Colocar enlaces en el menu
+    [] Agregar animación funcional en el menu
+    [] Agregar Hover en enlaces del footer
+    [+] Menu Sticky
+[] Desktop: Búsqueda
+    [+] Agregar borde inferior al menu (Decoración)
+    [+] Ajustar titutlo
+    [+] Ajustar icono del filtro.
+    [+] Ajustar cuadricula para 1, 2, 3, 4 columnas segun el dispositivo
+    [+] Menu Sticky
+[] Desktop: Filtro de Búsqueda
+    []
